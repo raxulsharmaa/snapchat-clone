@@ -1,0 +1,178 @@
+img {
+  width: 25px;
+}
+p {
+  margin: 0;
+  font-family: Inter;
+  font-size: 13px;
+}
+
+#Top-bar {
+  display: flex;
+  size-adjust: auto;
+  flex-direction: row;
+}
+.first-section {
+  display: flex;
+  flex-direction: row;
+}
+.snap-logo {
+  width: 35px;
+  object-fit: contain;
+}
+.search-logo {
+  width: 25px;
+  margin-left: 0px;
+}
+.search-input {
+  margin-left: o;
+  background-color: white;
+  width: 150px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-style: none;
+  border-radius: 18px;
+  padding-left: 10px;
+}
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 800px;
+}
+.third-section {
+  display: flex;
+  align-items: center;
+  margin-left: 30%;
+
+  gap: 8px;
+}
+.snapads {
+  width: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: rgba(0, 0, 0, 0.849);
+  color: white;
+}
+.download {
+  width: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: rgba(0, 0, 0, 0.849);
+  color: white;
+}
+.logo {
+  width: 19px;
+  object-fit: contain;
+}
+.text-section {
+  display: flex;
+  gap: 10px;
+}
+.image-section {
+  display: flex;
+  gap: 32px;
+}
+.center-texts1 {
+  font-size: 10px;
+  font-weight: bold;
+}
+.center-texts2 {
+  font-size: 10px;
+  font-weight: bold;
+}
+.center-texts3 {
+  font-size: 10px;
+  margin-left: 3px;
+  font-weight: bold;
+}
+.center-texts4 {
+  font-size: 10px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+button:hover {
+  cursor: pointer;
+}
+button:active {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.849);
+}
+#Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.center-image {
+  width: 600px;
+}
+.image-container {
+  width: auto;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+.new-button {
+  background-color: #1da1f2;
+  border-style: none;
+  color: white;
+  border-radius: 5px;
+}
+.login-button {
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  width: 180px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-weight: 700;
+}
+.playstore {
+  background-color: black;
+  width: 100px;
+  color: white;
+  border-radius: 5px;
+  font-size: 10px;
+}
+.first-line-text {
+  font-size: 40px;
+  font-weight: 600;
+}
+.second-line-text {
+  font-size: 18px;
+  margin-top: 5%;
+  font-weight: 500;
+}
+.third-line-text {
+  margin-top: 5%;
+  font-weight: 500;
+  font-size: 18px;
+}
+.first-half {
+  width: auto;
+}
+.second-half {
+  margin-top: 7%;
+}
+#second-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 9%;
+  background-color: white;
+}
+.details-tags {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
